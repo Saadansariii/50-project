@@ -1,0 +1,138 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+    margin: 0;
+    font: system-ui;
+}
+span{
+    color: tomato;
+}
+.flex{
+    padding-left: 30px;
+}
+nav{
+    padding-left: 30px;
+    background: grey;
+    color: white;
+    padding: 2em 0em;
+    border-bottom: 5px solid black;
+}
+nav .flex{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-right: 30px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-inline-end: 1em;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.showcase{
+    background:url("image/showcase.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.showcase .item{
+    margin:0px auto;
+    width: 50%;
+}
+.showcase .item p{
+    width: 70%;
+    margin: auto;
+}
+.news{
+    background-color: tomato;
+    
+}
+.newsletter{
+    padding: 2em 0em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+.iner input{
+    padding-inline-end: 80px;
+    padding-block: 10px;
+    padding-left: 8px;
+    
+}
+.iner button{
+            padding:10px;
+            margin-right:10px ;
+}
+.boxes{
+    padding-top: 5px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+}
+.box{
+    width: 25%;
+    padding: 1em 0em;
+}
+
+.footer{
+    background-color: tomato;
+    text-align: center;
+    padding: 2em 0em;
+}
+
+@media screen and (max-width:800px){
+    .boxes{
+        flex-direction:column;
+        align-items: center;
+    }
+    .about{
+        flex-direction: column;
+    }
+}
+
+.about{
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    margin-left: 10%;
+}
+.about .what{
+    padding: .5em;
+    margin: 2em 11em 4em .5em;
+    width: 50%;
+    background: grey;
+    color: #ffffff;   
+}
+.about .what h2{
+    margin: .5em 0em ;
+}
+.about .text{
+    margin-top: 1em;
+}
+.about .text h2{
+    padding:.2em 0em;
+}
+.about .note-2{
+    margin: 1em 0em;
+    padding: 1em;
+    background-color: grey;
+    padding-bottom: .5em;
+}
+.about .note-3{
+}

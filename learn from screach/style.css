@@ -1,0 +1,10 @@
+body{
+    background-color: beige;
+    padding:0%;
+    margin-top: 25px;
+    margin-left: 50px;
+    text-align: center;
+}
+.container{
+    size: 50px;
+}
